@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Metal&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: #d6cdcd;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Parte de estilização destinada apenas ao Header. */
+#header {
+    width: 100%;
+    height: 100%;
+}
+
+#imagemLogo {
+    width: 250px;
+    height: auto;
+    margin: 8px 60px;
+    position: absolute;
+}
+
+/* São estilizações para os botões que o usuário será capaz de interagir no header. */
+#conteudoHeader {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: black;
+    color: #d6cdcd;
+}
+
+/* "Botões" localizados no Header */
+.pHeader {
+    margin-right: 10vw;
+    cursor: pointer;
+}
+
+/* Div da maior imagem do Header */
+#divImagemFull-Size {
+    width: 100%;
+    height: 100%;
+
+}
+
+#imagemFull-Size {
+    width: 100%;
+    height: 110vh;
+    box-shadow: 20px 20px 5px 1px rgba(0, 0, 0, 0.746);
+    -webkit-box-shadow: 20px 20px 5px 1px rgba(0, 0, 0, 0.746);
+    -moz-box-shadow: 20px 20px 5px 1px rgba(0, 0, 0, 0.746);
+}
+
+/* Div da Imagem que fica Localizada sobreposta a imagem maior do Header. */
+#divLogoTransparente {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logoFundoTransparente {
+    width: 440px;
+    height: 340px;
+}
+
+#botaoHeader {
+    width: 200px;
+    height: 50px;
+    background-color: #1a1919;
+    color: #d6cdcd;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+/* Parte de estilização destinada apenas ao Main. */
+#main {
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    background-color: #d6cdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cards-comida{
+    width: 25%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #500101;
+}
+
+.divImagemComida{
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.imagensComida{
+    width: 100%;
+    height: 210px;
+    margin: 10px 0;
+}
+
+.h3-cards{
+    width: 100%;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    color: #d6cdcd;
+    font-family: metal,cursive;
+    font-weight: lighter;
+}
