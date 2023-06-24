@@ -11,17 +11,16 @@
 
 <body>
     <header id="header">
-        <!-- Imagem da logo SayKa'Foods que terá um position absolute para se sobrepor ao header. -->
-        <img id="imagemLogo" src="./imagens/Component 1.png" alt="Logo SayKa'Foods">
-
 
         <!-- Nessa div nós temos todas as opções que o usuário tem de informação do nosso site. -->
         <div id="conteudoHeader">
-            <p class="pHeader">Home</p>
-            <p class="pHeader">Products</p>
-            <p class="pHeader">Recipes</p>
-            <p class="pHeader">About Us</p>
-            <p class="pHeader">Contact</p>
+            <!-- Imagem da logo SayKa'Foods que terá um position absolute para se sobrepor ao header. -->
+            <img id="imagemLogo" src="./imagens/Component 1.png" alt="Logo SayKa'Foods">
+            <p class="pHeaderHome" onclick="arrastaHome()">Home</p>
+            <p class="pHeader" onclick="arrastaProducts()">Products</p>
+            <p class="pHeader" onclick="arrastaRecipes()">Recipes</p>
+            <p class="pHeader" onclick="arrastaAboutUs()">About Us</p>
+            <p class="pHeader" onclick="arrastaFooter()">Contact</p>
         </div>
 
         <!-- Nessa div, temos a imagem grande que ocupa todo o header, seus botões e suas sub-imagens -->
@@ -115,7 +114,8 @@
                 <img class="imagensComida" src="./imagens/Ultra-ComboSushi.png" alt="">
                 <div class="divTexto">
                     <h3 class="h3-cards">Ultra-Combo Sushi</h3>
-                    <p class="p-cards">Uma experiência de sabores em cada mordida. Experimente a perfeita harmonia entre a doçura do
+                    <p class="p-cards">Uma experiência de sabores em cada mordida. Experimente a perfeita harmonia entre
+                        a doçura do
                         arroz, e o frescor do peixe, Um deleite irresistível para os amantes de sushi.</p>
                 </div>
                 <div class="divPreco">
@@ -133,7 +133,8 @@
                 <img class="imagensComida" src="./imagens/TemakiFoto.jpg" alt="">
                 <div class="divTexto">
                     <h3 class="h3-cards">Temaki-Skin</h3>
-                    <p class="p-cards">Favorito dos fãs da culinária japonesa. Nós apostamos em um recheio incrívelmente saboroso com
+                    <p class="p-cards">Favorito dos fãs da culinária japonesa. Nós apostamos em um recheio incrívelmente
+                        saboroso com
                         pedacinhos de salmão, uma boa quantidade
                         de cream cheese e cebolinha. </p>
                 </div>
@@ -145,7 +146,67 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- Parte Direcionada as receitas do dia. -->
+        <div id="divReceitasDiarias">
+
+
+
+            <!-- Card relacionado à receita de Mooncake. -->
+            <div id="divMooncake">
+
+                <div id="divImagemMooncake">
+                    <img id="imagemMooncake" src="./imagens/MoonCake.png" alt="">
+                </div>
+
+                <div id="divTextoMooncake">
+
+                </div>
+
+            </div>
+
+            <!-- Card relacionado à receita de Daifuku Mochi -->
+            <div id="divMochi">
+
+                <div id="divImagemMochi">
+                    <img id="imagemMochi" src="./imagens/Daifuku-Mochi.png" alt="">
+                </div>
+
+                <div id="divTextoMochi">
+
+                </div>
+
+            </div>
+        </div>
+
+        <h1>About Us</h1>
+
+        <div id="divAboutUs">
+
+        </div>
+
+        <div id="divPreAboutUs">
+            <div id="divConteudoAboutUs">
+
+            </div>
+        </div>
     </main>
+
+    
+
+    <footer id="footer">
+        <div>
+
+        </div>
+    </footer>
+
+
+    <div id="voltarHome" onclick="arrastaHome()">
+        <p class="pSeta">➤</p>
+    </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>

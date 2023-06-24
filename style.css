@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Metal&display=swap');
 
 body,
-html {
+html{
     margin: 0;
     padding: 0;
     font-family: monospace;
@@ -23,6 +23,8 @@ button {
     height: auto;
     margin: 8px 60px;
     position: absolute;
+    top: 0;
+    left:0%;
 }
 
 /* São estilizações para os botões que o usuário será capaz de interagir no header. */
@@ -34,6 +36,12 @@ button {
     align-items: center;
     background-color: black;
     color: #d6cdcd;
+}
+
+.pHeaderHome {
+    margin-right: 10vw;
+    cursor: pointer;
+    color: #7E0606;
 }
 
 /* "Botões" localizados no Header */
@@ -52,9 +60,10 @@ button {
 #imagemFull-Size {
     width: 100%;
     height: 110vh;
-    border-radius: 10px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     box-shadow: 20px 20px 5px 1px rgba(0, 0, 0, 0.746);
-    -webkit-box-shadow: 20px 20px 5px 1px rgba(0, 0, 0, 0.746);
+    -webkit-box-shadow: 2px 20px 5px 1px rgba(0, 0, 0, 0.746);
     -moz-box-shadow: 20px 20px 5px 1px rgba(0, 0, 0, 0.746);
 }
 
@@ -185,4 +194,106 @@ button {
     font-size: 15px;
 }
 
+.divH1Recipes{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
 
+#divReceitasDiarias{
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+    background-color: #500101;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+#divMoonCake{
+
+}
+
+#divImagemMooncake{
+    margin-top: 30px;
+}
+
+#imagemMooncake{
+    width: 550px;
+    height: 300px;
+}
+
+#divTextoMooncake{
+
+}
+
+
+#divMochi{
+
+}
+
+#divImagemMochi{
+    margin-top: 30px;
+
+}
+
+#imagemMochi{
+    width: 550px;
+    height: 300px;
+}
+
+#divTextoMochi{
+    
+}
+
+#voltarHome{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-90deg);
+    position: absolute;
+    position:fixed;
+    right: 2%;
+    cursor: pointer;
+    top: 85%;
+}
+
+#divAboutUs{
+    width: 100%;
+    height: 500px;
+    background-color:#500101;
+    border-radius: 70px;
+}
+
+#divPreAboutUs{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+#divConteudoAboutUs{
+    width: 70%;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 60px;
+    background-color: #1a0505;
+}
+
+#footer{
+    width: 100%;
+    height: 600px;
+    background-color: #1a1919;
+}
+
+.pSeta{
+    font-size: xx-large;
+    
+    padding-left: 5px;
+}
