@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Metal&display=swap');
 
 body,
-html{
+html {
     margin: 0;
     padding: 0;
     font-family: monospace;
@@ -24,7 +24,7 @@ button {
     margin: 8px 60px;
     position: absolute;
     top: 0;
-    left:0%;
+    left: 0%;
 }
 
 /* São estilizações para os botões que o usuário será capaz de interagir no header. */
@@ -106,7 +106,7 @@ button {
     flex-wrap: wrap;
 }
 
-.cards-comida{
+.cards-comida {
     width: 350px;
     height: 430px;
     display: flex;
@@ -117,25 +117,25 @@ button {
     background-color: #500101;
 }
 
-.revelar{
+.revelar {
     position: relative;
     transform: translateY(160px);
     opacity: 0;
     transition: 1s all ease;
-  }
-  
-  .revelar.active{
+}
+
+.revelar.active {
     transform: translateY(0);
     opacity: 1;
-  }
+}
 
-.divImagemComida{
+.divImagemComida {
     width: 100%;
     height: 55%;
     align-items: flex-start;
 }
 
-.imagensComida{
+.imagensComida {
     width: 100%;
     height: 210px;
     margin: 10px 0;
@@ -151,7 +151,7 @@ button {
     justify-content: center;
 }
 
-.h3-cards{
+.h3-cards {
     width: 100%;
     height: 15%;
     margin-top: -20px;
@@ -159,11 +159,11 @@ button {
     justify-content: center;
     color: #d6cdcd;
     font-size: 25px;
-    font-family: metal,cursive;
+    font-family: metal, cursive;
     font-weight: lighter;
 }
 
-.p-cards{
+.p-cards {
     width: 70%;
     height: 55%;
     margin-top: 5px;
@@ -173,10 +173,10 @@ button {
     text-align: justify;
     font-size: 17px;
     font-family: Indie Flower;
-    
+
 }
 
-.divPreco{
+.divPreco {
     margin-top: 85px;
     height: 4px;
     display: flex;
@@ -206,72 +206,71 @@ button {
     font-size: 15px;
 }
 
-.divH1Recipes{
+.divH1Recipes {
     text-align: center;
     width: 100%;
     height: 100px;
 }
 
-.divReceitasDiarias{
+.divReceitasDiarias {
     width: 100%;
     height: 800px;
     margin-top: 50px;
     background-color: #500101;
     display: flex;
     justify-content: space-evenly;
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
+
     font-family: Metal;
     font-weight: l;
 }
 
-#divMooncake{
+#divMooncake {
     width: 50%;
 }
 
-#divImagemMooncake{
+#divImagemMooncake {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-#imagemMooncake{
+#imagemMooncake {
     width: 550px;
     height: 300px;
 }
 
-#divTextoMooncake{
+#divTextoMooncake {
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+
 }
 
-.h1Receitas{
+.h1Receitas {
     margin-top: 0;
     font-size: 35px;
     color: white;
 }
 
-.ingredientesH2{
+.ingredientesH2 {
     color: white;
     font-size: 20px;
     margin-top: -20px;
 }
 
-.divUls{
+.divUls {
     position: relative;
     left: 50px;
     width: 100%;
     display: flex;
     gap: 10%;
     margin-top: -20px;
-    
+
 }
 
-.ulReceitas{
+.ulReceitas {
     color: white;
     text-align: justify;
     width: 30%;
@@ -279,33 +278,33 @@ button {
 }
 
 
-#divMochi{
+#divMochi {
     width: 50%;
 }
 
-#divImagemMochi{
+#divImagemMochi {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-#imagemMochi{
+#imagemMochi {
     width: 550px;
     height: 300px;
 }
 
-#divTextoMochi{
+#divTextoMochi {
     width: 92%;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-#voltarHome{
+#voltarHome {
     width: 70px;
     height: 70px;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
     color: white;
     border-radius: 50%;
     display: flex;
@@ -313,42 +312,181 @@ button {
     align-items: center;
     transform: rotate(-90deg);
     position: absolute;
-    position:fixed;
+    position: fixed;
     right: 2%;
     cursor: pointer;
     top: 85%;
 }
 
-.divAboutUs{
+.divAboutUs {
     width: 100%;
     height: 500px;
-    background-color:#500101;
-    border-radius: 70px;
+    background-color: #500101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
 }
 
-.divPosAboutUs{
+.divImagemDonos {
+    display: flex;
+    gap: 140px;
+}
+
+.divTextoDonos {
+    display: flex;
+    gap: 370px;
+}
+
+.h3Donos {
+    font-size: 20px;
+    color: white;
+    font-family: Metal;
+    font-weight: lighter;
+}
+
+.imagemDonos {
+    width: 340px;
+    height: 340px;
+}
+
+.divPosAboutUs {
     width: 100%;
-    height: 450px;
+    height: 600px;
     display: flex;
     justify-content: center;
 }
 
-#divConteudoAboutUs{
+#divConteudoAboutUs {
     width: 70%;
-    height: 300px;
+    height: 450px;
     border-radius: 15px;
     margin-top: 60px;
     background-color: #1a0505;
+    display: flex;
+
 }
 
-#footer{
+.divImagemLogoAboutUs {
+    margin: 0 20px;
+}
+
+#imagemLogoAboutUs {
+    width: 250px;
+    height: 180px;
+}
+
+#divTextoAboutUs {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#textoAboutUs {
+    text-align: justify;
+    color: #fff;
+    font-family: Indie Flower;
+    font-size: 25px;
+}
+
+.divPreFooter {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.h1Footer {
+    margin: 0;
+    color: #fff;
+    font-family: Metal;
+    font-weight: lighter;
+}
+
+/* São estilizações para os botões que o usuário será capaz de interagir no Footer. */
+#conteudoFooter {
     width: 100%;
-    height: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: black;
+    color: #d6cdcd;
+}
+
+/* "Botões" localizados no Header */
+.pFooter:hover {
+    transition: 0.4s;
+    color: #7E0606;
+    cursor: pointer;
+}
+
+#footer {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
     background-color: #1a1919;
 }
 
-.pSeta{
+.divImagemLogoFooter {
+    margin-top: 20px;
+    width: 30%;
+}
+
+#imagemLogoFooter {
+    width: 250px;
+    height: 180px;
+}
+
+#divMeioFooter {
+    width: 30%;
+    margin-top: 20px;
+}
+
+#pMeioFooter {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: Metal;
+}
+
+#pProducedFooter {
+    text-align: center;
+    color: #fff;
+    font-family: Metal;
+}
+
+#divRedesSociais{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imagemRedesSociais{
+    width: 30px;
+    height: 30px;
+}
+
+#divImagensDireitaFooter{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.imagensPaises{
+    width: 100px;
+    height: 60px;
+}
+
+.pSeta {
     font-size: xx-large;
-    
     padding-left: 5px;
 }

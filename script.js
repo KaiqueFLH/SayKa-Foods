@@ -7,11 +7,11 @@ function arrastaProducts(){
 }
 
 function arrastaRecipes(){
-    window.scrollTo({ left: 0, top: 1820, behavior: "smooth",});
+    window.scrollTo({ left: 0, top: 1843, behavior: "smooth",});
 }
 
 function arrastaAboutUs(){
-    window.scrollTo({ left: 0, top: 2620, behavior: "smooth",});
+    window.scrollTo({ left: 0, top: 2640, behavior: "smooth",});
 }
 
 function arrastaFooter(){
@@ -24,7 +24,7 @@ function reveal() {
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 150;
+      var elementVisible = 30;
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
